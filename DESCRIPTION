@@ -1,0 +1,21 @@
+Package: TreeGrOSSinR
+Type: Package
+Title: Wachstumsfunktionen aus TreeGrOSS
+Version: 0.1.0
+Authors@R: c(
+  person("Robert", "Nuske", role=c("aut", "cre"), 
+         email="robert.nuske@nw-fva.de", 
+         comment=c(ORCID="0000-0001-9773-2061")),
+  person("Jürgen", "Nagel", role="ctb"),
+  person("Nordwestdeutsche Forstliche Versuchsanstalt (NW-FVA)", 
+         role=c("cph", "fnd")))
+Description: Wachstumsfunktionen für Bäume aus dem TreeGrOSS Paket. 
+  Es werden alle Funktionen angeboten, die keine Baumpositionen oder 
+  geernteten Bäume benötigen. Die in TreeGrOSS verwendeten XML-Dateien der 
+  Wachstumsfunktionen wurden für die Verwendung in R übersetzt.  
+License: GPL-2
+Encoding: UTF-8
+Depends:  R (>= 3.5)
+Suggests: xml2, testthat (>= 1.0.0), knitr
+LazyData: true
+RoxygenNote: 7.1.1
