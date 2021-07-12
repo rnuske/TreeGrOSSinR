@@ -19,7 +19,18 @@ Baumarten abgedeckt werden.
 
 ## Installation
 
-Das Paket kann mit dem Paket `remotes` von Github installiert werden
+Das Paket kann bequem aus meinem
+[R-Universe](https://rnuske.r-universe.dev/) installiert werden
+
+    # Das Universe einbinden
+    options(repos = c(
+        rnuske = 'https://rnuske.r-universe.dev',
+        CRAN = 'https://cloud.r-project.org'))
+
+    # und dann ganz normal installieren
+    install.packages('TreeGrOSSinR')
+
+oder mit Hilfe des Paketes `remotes` von Github.
 
 ``` r
 remotes::install_github("rnuske/TreeGrOSSinR")
