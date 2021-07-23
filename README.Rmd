@@ -85,15 +85,14 @@ tg_bonitaet100(ba=211, alter=150, h100=40)
 
 ## Zitat
 
-Die Funktionen können zitiert werden als 
+Das Paket kann zitiert werden als 
+
+> Nuske, R. (2021). TreeGrOSSinR: Wachstumsfunktionen aus TreeGrOSS [Software]. 
+> Version 0.1.0. Zenodo. https://doi.org/10.5281/zenodo.5128251
+
+und die darin angebotenen Funktionen als 
 
 > Nagel, J.; Duda, H.; Hansen, J. (2006): Forest Simulator BWINPro7. 
 > Forst und Holz 61(10): 427-429.
 >
-> Nagel, J. (2021): TreeGrOSS. https://www.nw-fva.de/index.php?id=477 
-
-
-und für die Bereitstellung der Funktion in R
-
-> Nuske, R. (2021). TreeGrOSSinR: Wachstumsfunktionen aus TreeGrOSS. 
-> R package version 0.1.0. https://github.com/rnuske/TreeGrOSSinR
+> Nagel, J. (2021): TreeGrOSS [Software]. https://www.nw-fva.de/unterstuetzen/software/treegross
